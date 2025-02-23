@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Hero section */
+.hero{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+h1{
+    margin-top: 7px;
+}
+
+.hero .btn
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.hero .btn:hover
+{
+    background-color: #555;
+}
+
+/* About Section */
+.about
+{
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+.Contact
+{
+    padding: 50px;
+    background-color: #ddd;
+}
+.Contact form
+{
+    max-width: 400px;
+    margin: auto;
+}
+.Contact input,
+.Contact textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+.Contact button
+{
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Contact button:hover
+{
+    background-color: #f94c66;
+}
+
+
+
